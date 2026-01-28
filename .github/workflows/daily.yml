@@ -32,4 +32,4 @@ jobs:
           git config --global user.email "auto@bot.com"
           git add *.csv *.txt
           git commit -m "Daily TPEX update" || echo "No changes"
-          git push
+          git push || echo "Nothing to push"
