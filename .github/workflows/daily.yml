@@ -1,4 +1,6 @@
 name: TPEX Daily Auto Run
+permissions:
+  contents: write
 
 on:
   schedule:
